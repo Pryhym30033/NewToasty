@@ -11,9 +11,6 @@ function ToastShelf() {
     aria-live="polite"
     aria-label="Notification"
     >
-      <div className="VisuallyHidden_wrapper">
-        error -
-       </div>
       {toasts.map((toast) => (
       <li className={styles.toastWrapper} key={toast.id}>
         <Toast variant={toast.variant} id={toast.id}>{toast.message}</Toast>
