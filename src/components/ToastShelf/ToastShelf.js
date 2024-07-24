@@ -11,7 +11,7 @@ function ToastShelf() {
     aria-live="polite"
     aria-label="Notification"
     >
-      <div class="VisuallyHidden_wrapper">
+      <div className="VisuallyHidden_wrapper">
         error -
        </div>
       {toasts.map((toast) => (
